@@ -1,0 +1,128 @@
+.back_top {
+	display: block; 
+	position: fixed; 
+	bottom: 0;
+	right: 10px; 
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 5px 5px 0 0;
+	border: 1px solid #fff;
+	background-color: #eb6435;
+	padding: 10px;
+	z-index: 99999;
+	font-size: 18px;
+	font-weight: 800;
+}
+.popup_menu {
+	display: block; 
+	position: fixed; 
+	top: 5px;
+	left: 0px; 
+	height: 40px;
+	width: 40px;
+	border: 1px solid #fff;
+	background-color: #eb6435;
+	padding: 3px 0 0 8px;
+	z-index: 99999;
+	font-size: 18px;
+	font-weight: 800;
+}
+.share_news {
+	display: block; 
+	position: fixed; 
+	left: 0px;
+	z-index: 99999;
+	bottom: 30%;
+}
+.popup_menu i{
+	color: #fff;
+	font-size: 25px;
+}
+.content_news{
+	display: block;
+	overflow: hidden;
+}
+.content_news img {
+	display: block!important;
+    max-width: 100%!important;
+    height: auto!important;
+}
+.tieude_goi{
+	display: inline-block;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+.sub_menu{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.sub_menu .active a{
+	color: #EB6435;
+	font-weight: 800;
+}
+.sub_menu li{
+	display: inline-block;	 
+	border-left: 1px solid #ddd;
+	
+}
+.sub_menu li a{
+	color: #3c3c3c;
+	padding: 5px;
+
+}
+.sub_menu li:last-child{
+	border-right: 1px solid #ddd;
+}
+.nopadding {
+	padding-right: 0px;
+}
+.padding2{
+	padding: 2px;
+}
+.padding3{
+	padding: 3px;
+}
+.padding4{
+	padding: 4px;
+}
+.item_search{
+	display: inline-block;
+	height: 40px;
+	overflow: hidden;
+}
+.search_intro{
+	display: block;
+    /* max-height: 43px; */
+    overflow: hidden;
+}
+/* mobile style  */
+@media only screen and (max-width: 765px) {
+	.mobile_item{
+		height: 215px;
+	}
+	.mobile_hot_img>a>img{
+		width: 100%;
+		height: 170px;
+	}
+	.mobile_img>a>img{
+		width: 100%;
+		height: 120px;
+	}
+	.mobile_title>a>h1{
+		display: block;
+		font-size: 14px;
+		margin: 10px 0 10px 0;
+		padding: 0;
+		max-height: 30px;
+		font-weight: 600;
+		overflow: hidden;		
+	}
+	.share_news {
+		display: block; 
+		position: fixed; 
+		left: 0px;
+		z-index: 99999;
+		bottom: 80px;
+	}
+}

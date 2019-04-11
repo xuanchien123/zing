@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#nnstartmaket").click(function(){
+        $(this).button('loading');
+    });
+    $("body").on("click",".view_maketting",function(e){ 
+    	$("#contentmail").html($(this).attr('content'));
+    	$("#enntitlemaketing").val($(this).attr('title'));
+		$('.nn-modal-view-maketing').modal('show');
+    });
+});
